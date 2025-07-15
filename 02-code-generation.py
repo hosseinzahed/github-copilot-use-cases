@@ -5,7 +5,7 @@ import uvicorn
 
 """ Prompt in Ask/Edit/Agent:
 Generate a fast api application with the following endpoints:
-- Get / : Show a health check message.
+- GET / : Show a health check message.
 - GET /items: Retrieve a list of all items.
 - GET /items/{item_id}: Retrieve an item by its ID.
 - POST /items: Create a new item.
