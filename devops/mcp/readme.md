@@ -1,0 +1,2 @@
+- Azure
+- AWS & GCP if they provide MCP

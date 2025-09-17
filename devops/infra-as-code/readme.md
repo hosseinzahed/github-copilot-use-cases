@@ -1,0 +1,4 @@
+- Landing zone generation
+- Resource creation
+- Translate between tf and bicep
+- Refactoring

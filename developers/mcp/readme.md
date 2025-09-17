@@ -1,0 +1,2 @@
+- GitHub MCP
+- Playwright MCP

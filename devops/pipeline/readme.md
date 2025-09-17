@@ -1,0 +1,6 @@
+- CI/CD
+- Containerization / Docker
+- Translation
+- Reporting
+- Automation
+- Optimization

@@ -1,0 +1,3 @@
+- Awesome-Copilot examples
+- Security
+- SOLID, DRY
