@@ -1,8 +1,10 @@
 ### Check MCP Servers
 - Here you can find a list of MCP servers: https://github.com/modelcontextprotocol/servers
 - Follow the instructions for each MCP server to install and activate it.
-- Setup GitHub MCP server: https://github.com/github/github-mcp-server?tab=readme-ov-file#installation
+- VS Code Extensions => @mcp
 
 
 ### Prompt in Ask:
-#list_commits HosseinZahed/github-copilot-use-cases
+- list commits hosseinzahed/github-copilot-use-cases
+- In which Auzre regions gpt-5 model is available?
+- Find the AI landing zone's document, read the document, summarize and store it in an Markdown file under the docs folder.

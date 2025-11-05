@@ -386,3 +386,6 @@ ClientBin/
 .history/
 
 # VS Code
+
+# Node modules
+node_modules/

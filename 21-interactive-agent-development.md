@@ -3,4 +3,4 @@ This example demonstrates how the Agent can read an issue from GitHub and implem
 Here is the issue link: [https://github.com/HosseinZahed/github-copilot-use-cases/issues/1](https://github.com/HosseinZahed/github-copilot-use-cases/issues/1)
 
 **Prompt in Agent mode:**
-#get_issue 1 HosseinZahed/github-copilot-use-cases
+github issue #1 HosseinZahed/github-copilot-use-cases
