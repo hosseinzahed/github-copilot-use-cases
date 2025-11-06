@@ -8,4 +8,4 @@
 - list commits hosseinzahed/github-copilot-use-cases
 - In which Auzre regions gpt-5 model is available?
 - Find the AI landing zone's document, read the document, summarize and store it in an Markdown file under the docs folder.
-- @azure list all my resource groups
+- @azure Generate a table listing all my resource groups along with their corresponding regions.
