@@ -22,7 +22,7 @@ GitHub Copilot instructions allow you to customize how the AI generates code and
   By utilizing GitHub Copilot instructions effectively, you can enhance the AI's ability to generate code that aligns with your project's standards and requirements, ultimately improving your development workflow.
 
 ### Sources
-
+- [https://github.com/github/awesome-copilot](https://github.com/github/awesome-copilot)
 - [https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions](https://docs.github.com/en/copilot/how-tos/configure-custom-instructions/add-repository-instructions)
 - [https://code.visualstudio.com/docs/copilot/customization/custom-instructions](https://code.visualstudio.com/docs/copilot/customization/custom-instructions)
 - [https://github.blog/changelog/2025-08-06-copilot-coding-agent-automatically-generate-custom-instructions/](https://github.blog/changelog/2025-08-06-copilot-coding-agent-automatically-generate-custom-instructions/)

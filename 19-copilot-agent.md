@@ -1,3 +1,6 @@
+## Agent Mode
+
+**Prompt in Agent mode**
 - Create an html page listing exactly 12 random european countries with their population size and flag as bootstrap cards. 
 - It should be a self-contained file with a proper header and title. 
 - Show 4 countries in each row.
