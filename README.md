@@ -73,6 +73,9 @@
 ### Custom Prompts
 💬 Create tailored prompts to guide Copilot's code generation and explanations for specific use cases.
 
+### Plan Mode
+📃 Creates a comprehensive project plan for the requested task, outlining EPICs and user stories needed to achieve the objective.
+
 ### Extensions
 🛠️ Use extensions by typing @  
 ☁️ Azure, Docker, and many others!  
