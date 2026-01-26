@@ -79,6 +79,9 @@ Creates a comprehensive project plan for the requested task, outlining EPICs and
 ### 💪 Agent Skills
 Enhances the ability of GitHub Copilot to perform specialized tasks.
 
+### ✨ GitHub Copilot SDK
+Infuses GitHub Copilot capabilities into your applications (.NET, Python, Go, Node/Typescript)
+
 ### Extensions
 🛠️ Use extensions by typing @  
 ☁️ Azure, Docker, and many others!  
