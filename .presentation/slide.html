@@ -686,7 +686,69 @@
           </section>
         </section>
 
-        <!-- Slide 7: Thank You -->
+        <!-- Slide 7: API Direct Consumer Diagram -->
+        <section>
+          <h2>Consuming API Directly</h2>
+          <div class="mermaid" style="font-size: 0.75em;">
+            flowchart LR
+              Client(["&#128187; Client Application"])
+
+              subgraph API[" &#128187; REST API "]
+                direction TB
+                E1["GET /users"]
+                E2["POST /orders"]
+                E3["GET /products"]
+              end
+
+              Client -- "HTTP GET /users" --> E1
+              Client -- "HTTP POST /orders" --> E2
+              Client -- "HTTP GET /products" --> E3
+              
+              style E1 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+              style E2 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+              style E3 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+          </div>
+        </section>
+
+        <!-- Slide 8: API via MCP -->
+        <section>
+          <h2>Consuming API via MCP</h2>
+          <div class="mermaid" style="font-size: 0.75em;">
+            flowchart LR
+              Client(["💻 Client Application"])
+
+              subgraph MCP["🤖 MCP"]
+                direction TB
+                T1["Tool: get_users()"]
+                T2["Tool: create_order()"]
+                T3["Tool: get_products()"]
+              end
+
+              subgraph API["🌐 REST API"]
+                direction TB
+                E1["GET /users"]
+                E2["POST /orders"]
+                E3["GET /products"]
+              end
+
+              Client -- "Natural Language / Tool Call" --> T1
+              Client -- "Natural Language / Tool Call" --> T2
+              Client -- "Natural Language / Tool Call" --> T3
+
+              T1 -- "HTTP GET /users" --> E1
+              T2 -- "HTTP POST /orders" --> E2
+              T3 -- "HTTP GET /products" --> E3
+
+              style T1 fill:#2d6a4f,color:#fff,stroke:#52b788
+              style T2 fill:#2d6a4f,color:#fff,stroke:#52b788
+              style T3 fill:#2d6a4f,color:#fff,stroke:#52b788
+              style E1 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+              style E2 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+              style E3 fill:#1e3a5f,color:#fff,stroke:#4a9eff
+          </div>
+        </section>
+
+        <!-- Slide 9: Thank You -->
         <section>
           <h2>Demo Time!</h2>
           <p>Let's explore some use cases and examples</p>
@@ -707,9 +769,12 @@
       </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.0.4/dist/reveal.js"></script>
     <script>
       // Initialize Reveal.js
+      mermaid.initialize({ startOnLoad: false, theme: "dark" });
+
       Reveal.initialize({
         hash: true,
         transition: "slide", // none/fade/slide/convex/concave/zoom
@@ -722,6 +787,14 @@
         touch: true,
         loop: false,
         fragments: true,
+      });
+
+      Reveal.on("slidechanged", function () {
+        mermaid.run({ querySelector: ".mermaid" });
+      });
+
+      Reveal.on("ready", function () {
+        mermaid.run({ querySelector: ".mermaid" });
       });
     </script>
   </body>
