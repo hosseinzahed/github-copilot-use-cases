@@ -31,7 +31,8 @@ async def main():
             }
         }
     })
-    response = await session.send_and_wait({"prompt": "In which Azure regions is GPT-4.1 available?"})
+    response = await session.send_and_wait({"prompt": 
+        "Create a simple python calculator and save the file as calculator.py."})
 
     print(f"Response: {response.data.content}")
     print("***")
