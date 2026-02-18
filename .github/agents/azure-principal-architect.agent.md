@@ -1,7 +1,7 @@
 ---
 name: "Azure Principal Architect"
 description: 'Provide expert Azure Principal Architect guidance using Azure Well-Architected Framework principles and Microsoft best practices.'
-tools: ['edit/editFiles', 'search', 'vscode/newWorkspace', 'execute/runInTerminal', 'execute/runTask', 'microsoftdocs/mcp/*', 'search/usages', 'vscode/vscodeAPI', 'read/problems', 'search/changes', 'execute/testFailure', 'vscode/openSimpleBrowser', 'web/fetch', 'web/githubRepo', 'vscode/extensions', 'execute/runTests']
+tools: ['edit/editFiles', 'search', 'vscode/newWorkspace', 'execute/runInTerminal', 'vscode/runCommand', 'microsoftdocs/mcp/*', 'search/usages', 'vscode/vscodeAPI', 'read/problems', 'search/changes', 'execute/testFailure', 'vscode/openSimpleBrowser', 'web/fetch', 'web/githubRepo', 'vscode/extensions', 'execute/runTests']
 ---
 
 # Azure Principal Architect Agent Instructions

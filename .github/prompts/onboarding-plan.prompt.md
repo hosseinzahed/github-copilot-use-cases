@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: 'Help new team members onboard with a phased plan and suggestions for first tasks.'
 ---
 

@@ -1,7 +1,7 @@
 ---
-mode: 'agent'
+agent: 'agent'
 description: 'Check DRY'
-tools: ['changes', 'codebase', 'fetch', 'findTestFiles', 'githubRepo', 'problems', 'runCommands', 'runTasks', 'runTests', 'search', 'searchResults', 'testFailure', 'usages', 'github', 'github-remote', 'Azure MCP']
+tools: ['edit/editFiles', 'search', 'vscode/newWorkspace', 'execute/runInTerminal', 'vscode/runCommand', 'search/usages', 'vscode/vscodeAPI', 'read/problems', 'search/changes', 'execute/testFailure', 'vscode/openSimpleBrowser', 'web/fetch', 'web/githubRepo', 'vscode/extensions', 'execute/runTests']
 ---
 
 # 🔍 DRY Violation Analysis & Refactoring Recommendations
