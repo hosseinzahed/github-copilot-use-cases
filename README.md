@@ -82,6 +82,9 @@ Enhances the ability of GitHub Copilot to perform specialized tasks.
 ### ✨ GitHub Copilot SDK
 Infuses GitHub Copilot capabilities into your applications (.NET, Python, Go, Node/Typescript)
 
+### 🤖 Agentic Workflow
+It can orchestrate multi-step tasks autonomously by planning, using tools, and iterating on results to complete end-to-end workflows.
+
 ### Extensions
 🛠️ Use extensions by typing @  
 ☁️ Azure, Docker, and many others!  
