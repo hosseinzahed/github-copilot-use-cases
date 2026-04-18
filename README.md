@@ -85,6 +85,9 @@ Infuses GitHub Copilot capabilities into your applications (.NET, Python, Go, No
 ### 🤖 Agentic Workflow
 It can orchestrate multi-step tasks autonomously by planning, using tools, and iterating on results to complete end-to-end workflows.
 
+### 🚀 Fleet Mode
+Run multiple Copilot coding agents in parallel, each tackling a separate issue on its own branch, to accelerate throughput across your backlog.
+
 ### Extensions
 🛠️ Use extensions by typing @  
 ☁️ Azure, Docker, and many others!  
