@@ -2,8 +2,8 @@ name: Daily summary
 on:
   workflow_dispatch:
   # Run this workflow daily at 8:30am UTC
-  schedule:
-    - cron: '30 08 * * *'
+  #schedule:
+    #- cron: '30 08 * * *'
 permissions:
   contents: read
 jobs:
